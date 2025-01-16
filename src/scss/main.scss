@@ -25,7 +25,7 @@ body {
   background: var(--lavender, #c4d2f5);
   display: flex;
   padding: 100px 0px 0px 100px;
-  align-items: center;
+  font-family: Inter;
 }
 
 .player {
@@ -36,7 +36,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  flex-shrink: 0;
   border-radius: 20px;
   background: var(--white, #fff);
   box-shadow: 0px 0px 0px 20px rgba(255, 254, 254, 0.15);
@@ -49,19 +48,13 @@ body {
 }
 .player-track-title {
   color: var(--black, #000);
-  font-family: Inter;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 .player-track-artist {
   color: var(--gray, #909090);
-  font-family: Inter;
   font-size: 15px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .player-progress {
@@ -72,15 +65,11 @@ body {
 }
 .player-time {
   color: var(--gray, #909090);
-  font-family: Inter;
   font-size: 15px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 .player-progress-bar {
   display: flex;
-  align-items: flex-start;
   gap: 10px;
   flex: 1 0 0;
   border-radius: 3px;
@@ -104,9 +93,7 @@ body {
   color: var(--white, #fff);
   font-family: "Font Awesome 6 Free";
   font-size: 20px;
-  font-style: normal;
   font-weight: 900;
-  line-height: normal;
 }
 audio {
   display: none;
